@@ -95,7 +95,6 @@ function getDayType(day: Day): string {
 }
 
 
-
 async function squareAsync(n: number): Promise<number> {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
